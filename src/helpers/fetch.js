@@ -1,5 +1,9 @@
 
-const baseURL = "http://localhost:8080/api/upload/";
+// DEV
+//const baseURL = "http://localhost:8080/api/upload/";
+
+// PRODUCTION
+const baseURL = "https://unplash-react-node.herokuapp.com/api/upload/";
 
 export const fetchAddpostImg = (data) => {
 
